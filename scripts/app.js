@@ -37,4 +37,14 @@ var map;
           center: {lat: -34.397, lng: 150.644},
           zoom: 8
         })};
-        
+
+
+
+`<p>
+${features.properties.title},
+
+Type: <strong>${features.properties.type}</strong>,
+Lat/Lon:
+{features.geometry.coordinates[0]}/
+{features.geometry.coordinates[1]}
+</p>      
